@@ -1,11 +1,11 @@
 
 /**
- * This program solves the KATTIS problem "unionfind".
+ * Solves the Kattis problem: unionfind
  */
 public class Main {
 	
 	/**
-	 * Reads the input and prints the solution as specified by KATTIS.
+	 * Reads the input and prints the solution as specified by Kattis.
 	 */
 	public void runOnKattis() {
 		Kattio io = new Kattio(System.in, System.out);

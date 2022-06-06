@@ -2,12 +2,12 @@
 import java.util.ArrayList;
 
 /**
- * This program solves the KATTIS problem "knapsack".
+ * Solves the Kattis problem: knapsack
  */
 public class Main {
 
     /**
-     * Reads the input and prints the solution as specified by KATTIS.
+     * Reads the input and prints the solution as specified by Kattis.
      */
     private void runOnKattis() {
         Kattio io = new Kattio(System.in, System.out);
