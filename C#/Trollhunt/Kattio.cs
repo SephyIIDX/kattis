@@ -3,23 +3,19 @@ using System.IO;
 
 namespace Kattis.IO
 {
-	public class NoMoreTokensException : Exception
-	{
-	}
-
-	public class Tokenizer
+	public class Kattio : StreamWriter
 	{
 		string[] tokens = new string[0];
 	    private int pos;
 		StreamReader reader;
 
-	    public Tokenizer(Stream inStream)
+	    public Kattio(Stream inStream) : base(new BufferedStream(Console.OpenStandardOutput()))
 		{
 			var bs = new BufferedStream(inStream);
 			reader = new StreamReader(bs);
 		}
 
-		public Tokenizer() : this(Console.OpenStandardInput())
+		public Kattio() : this(Console.OpenStandardInput())
 		{
 			// Nothing more to do
 		}
@@ -64,11 +60,6 @@ namespace Kattis.IO
 			++pos;
 			return next;
 		}
-	}
-
-
-	public class Scanner : Tokenizer
-	{
 
 		public int NextInt()
 		{
@@ -92,11 +83,8 @@ namespace Kattis.IO
 	}
 
 
-	public class BufferedStdoutWriter : StreamWriter
+	public class NoMoreTokensException : Exception
 	{
-		public BufferedStdoutWriter() : base(new BufferedStream(Console.OpenStandardOutput()))
-		{
-		}
 	}
 
 }

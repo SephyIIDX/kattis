@@ -11,17 +11,16 @@ public class Program
     /// </summary>
     public static void Main()
     {
-        Scanner input = new Scanner();
-        BufferedStdoutWriter output = new BufferedStdoutWriter();
+        Kattio io = new Kattio();
 
-        int bridgesLeft = input.NextInt() - 1;
-        int groups = input.NextInt() / input.NextInt();
+        int bridgesLeft = io.NextInt() - 1;
+        int groups = io.NextInt() / io.NextInt();
 
         int res = bridgesLeft / groups;
         if (bridgesLeft % groups > 0)
             res++;
 
-        output.WriteLine(res);
-        output.Close();
+        io.WriteLine(res);
+        io.Close();
     }
 }
