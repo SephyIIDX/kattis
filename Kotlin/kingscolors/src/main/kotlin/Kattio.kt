@@ -43,14 +43,16 @@ internal class Kattio(i: InputStream = System.`in`, o: OutputStream = System.out
     val hasMoreTokens: Boolean
         get() = peekToken() != null
 
-    val int: Int
+    val readInt: Int
         get() = nextToken()!!.toInt()
-    val double: Double
+    val readDouble: Double
         get() = nextToken()!!.toDouble()
-    val long: Long
+    val readLong: Long
         get() = nextToken()!!.toLong()
-    val word: String?
+    val readWord: String?
         get() = nextToken()
+    val readLine: String?
+        get() = nextLine()
 
     private var r: BufferedReader
     private var line: String? = null
@@ -74,6 +76,13 @@ internal class Kattio(i: InputStream = System.`in`, o: OutputStream = System.out
         val ans = peekToken()
         token = null
         return ans
+    }
+
+    private fun nextLine(): String? {
+        peekToken()
+        st = null
+        token = null
+        return line
     }
 
     init {

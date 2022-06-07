@@ -4,10 +4,10 @@
  */
 fun main() {
     val io = Kattio()
-    val t = io.int
+    val t = io.readInt
 
     for (i in 0 until t) {
-        val n = io.int
+        val n = io.readInt
 
         var cards = listOf(n)
         for (j in n-1 downTo 1) {

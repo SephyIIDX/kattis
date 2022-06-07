@@ -8,8 +8,8 @@ private const val MOD = 1000000007
  */
 fun main() {
     val io = Kattio()
-    val n = io.int
-    val k = io.int
+    val n = io.readInt
+    val k = io.readInt
     val colorings = Array(n+1) { LongArray(k+1) }
 
     colorings[1][1] = 1
