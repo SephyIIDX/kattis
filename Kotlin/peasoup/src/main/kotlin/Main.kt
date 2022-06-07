@@ -3,16 +3,16 @@
  * Solves the Kattis problem: peasoup
  */
 fun main() {
-
-    fun solve(): String {
-        val n = readLine()!!.toInt()
+    val io = Kattio()
+    fun solve(): String? {
+        val n = io.int
         for (i in 0 until n) {
-            val k = readLine()!!.toInt()
-            val restaurant = readLine()!!
+            val k = io.int
+            val restaurant = io.line
             var hasPeaSoup = false
             var hasPancakes = false
             for (j in 0 until k) {
-                val line = readLine()
+                val line = io.line
                 if (!hasPeaSoup && line.equals("pea soup")) {
                     hasPeaSoup = true
                 } else if (!hasPancakes && line.equals("pancakes")) {
@@ -26,5 +26,5 @@ fun main() {
         return "Anywhere is fine I guess"
     }
 
-    println(solve())
+    io.println(solve())
 }
