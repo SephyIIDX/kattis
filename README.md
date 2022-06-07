@@ -9,4 +9,5 @@
 | [Card Trick](https://open.kattis.com/problems/cardtrick2) | [Kotlin](Kotlin/cardtrick2/src/main/kotlin/) |
 | [King's Colors](https://open.kattis.com/problems/kingscolors) | [Kotlin](Kotlin/kingscolors/src/main/kotlin/) |
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | [Kotlin](Kotlin/peasoup/src/main/kotlin/) |
+| [Loo Rolls](https://open.kattis.com/problems/loorolls) | [Kotlin](Kotlin/loorolls/src/main/kotlin/) |
 | [Troll Hunt](https://open.kattis.com/problems/trollhunt) | [C#](C%23/Trollhunt/) |
