@@ -25,6 +25,8 @@
  *   a good idea to use hasMoreTokens() to check for end-of-file.
  *
  * @author: Kattis
+ * 
+ * Modified to be able to read lines using getLine().
  */
 
 import java.util.StringTokenizer;
@@ -66,6 +68,10 @@ class Kattio extends PrintWriter {
         return nextToken();
     }
 
+    public String getLine() {
+        return nextLine();
+    }
+
 
 
     private BufferedReader r;
@@ -90,5 +96,12 @@ class Kattio extends PrintWriter {
         String ans = peekToken();
         token = null;
         return ans;
+    }
+
+    private String nextLine() {
+        peekToken();
+        st = null;
+        token = null;
+        return line;
     }
 }
