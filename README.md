@@ -13,3 +13,4 @@
 | [Loo Rolls](https://open.kattis.com/problems/loorolls) | [Kotlin](Kotlin/loorolls/src/main/kotlin/) |
 | [Kitten on a Tree](https://open.kattis.com/problems/kitten) | [C#](C%23/Kitten/) |
 | [Troll Hunt](https://open.kattis.com/problems/trollhunt) | [C#](C%23/Trollhunt/) |
+| [Airline Hub](https://open.kattis.com/problems/airlinehub) | [C#](C%23/Airlinehub/) |
