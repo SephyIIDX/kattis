@@ -5,6 +5,7 @@ namespace Kattis.IO
 {
     public class Kattio : StreamWriter
     {
+        private string line;
         string[] tokens = new string[0];
         private int pos;
         StreamReader reader;
@@ -34,7 +35,7 @@ namespace Kattis.IO
                 }
                 return tokens[pos];
             }
-            string line = reader.ReadLine();
+            line = reader.ReadLine();
             if (line == null)
             {
                 // There is no more data to read
@@ -59,6 +60,13 @@ namespace Kattis.IO
                 throw new NoMoreTokensException();
             ++pos;
             return next;
+        }
+
+        public string NextLine()
+        {
+            PeekNext();
+            pos = tokens.Length;
+            return line;
         }
 
         public int NextInt()
