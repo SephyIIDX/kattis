@@ -11,4 +11,5 @@
 | [King's Colors](https://open.kattis.com/problems/kingscolors) | [Kotlin](Kotlin/kingscolors/src/main/kotlin/) |
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | [Kotlin](Kotlin/peasoup/src/main/kotlin/) |
 | [Loo Rolls](https://open.kattis.com/problems/loorolls) | [Kotlin](Kotlin/loorolls/src/main/kotlin/) |
+| [Kitten on a Tree](https://open.kattis.com/problems/kitten) | [C#](C%23/Kitten/) |
 | [Troll Hunt](https://open.kattis.com/problems/trollhunt) | [C#](C%23/Trollhunt/) |
