@@ -15,3 +15,4 @@
 | [Troll Hunt](https://open.kattis.com/problems/trollhunt) | [C#](C%23/Trollhunt/) |
 | [Airline Hub](https://open.kattis.com/problems/airlinehub) | [C#](C%23/Airlinehub/) |
 | [Hiding Places](https://open.kattis.com/problems/hidingplaces) | [C#](C%23/Hidingplaces/) |
+| [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [C#](C%23/Alphabetspam/) |
