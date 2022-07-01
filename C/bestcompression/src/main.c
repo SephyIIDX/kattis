@@ -6,15 +6,15 @@
  */
 int main()
 {
-	long long N;
-	int b;
+    long long N;
+    int b;
 
-	scanf("%lld %d", &N, &b);
+    scanf("%lld %d", &N, &b);
 
-	if (N < (2L << b))
-		printf("yes\n");
-	else
-		printf("no\n");
+    if (N < (2L << b))
+        printf("yes\n");
+    else
+        printf("no\n");
 
-	return 0;
+    return 0;
 }
