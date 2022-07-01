@@ -1,6 +1,5 @@
 
-#include <cstdio>
-using namespace std;
+#include <stdio.h>
 
 /*
  * Solves the Kattis problem: semafori
