@@ -6,6 +6,7 @@
 | [Union-Find](https://open.kattis.com/problems/unionfind) | [Java](Java/unionfind/src/) |
 | [Fenwick Tree](https://open.kattis.com/problems/fenwick) | [Java](Java/fenwick/src/) |
 | [Killing Aliens in a Borg Maze](https://open.kattis.com/problems/borg) | [Java](Java/borg/src/) |
+| [Timebomb](https://open.kattis.com/problems/timebomb) | [Java](Java/timebomb/src/) |
 | [Best Compression Ever](https://open.kattis.com/problems/bestcompression) | [C](C/bestcompression/src/), [Java](Java/bestcompression/src/) |
 | [Semafori](https://open.kattis.com/problems/semafori) | [C](C/semafori/src/), [Kotlin](Kotlin/semafori/src/main/kotlin/) |
 | [R2](https://open.kattis.com/problems/r2) | [Kotlin](Kotlin/r2/src/main/kotlin/) |
