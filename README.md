@@ -18,3 +18,4 @@
 | [Airline Hub](https://open.kattis.com/problems/airlinehub) | [C#](C%23/Airlinehub/) |
 | [Hiding Places](https://open.kattis.com/problems/hidingplaces) | [C#](C%23/Hidingplaces/) |
 | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [C#](C%23/Alphabetspam/) |
+| [Catalan Square](https://open.kattis.com/problems/catalansquare) | [Python](Python/catalansquare/) |
