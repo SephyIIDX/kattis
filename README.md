@@ -20,3 +20,4 @@
 | [Hiding Places](https://open.kattis.com/problems/hidingplaces) | [C#](C%23/Hidingplaces/) |
 | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [C#](C%23/Alphabetspam/) |
 | [Catalan Square](https://open.kattis.com/problems/catalansquare) | [Python](Python/catalansquare/) |
+| [Another Candies](https://open.kattis.com/problems/anothercandies) | [Python](Python/anothercandies/) |
