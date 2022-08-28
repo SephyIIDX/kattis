@@ -7,6 +7,7 @@
 | [Fenwick Tree](https://open.kattis.com/problems/fenwick) | [Java](Java/fenwick/src/) |
 | [Killing Aliens in a Borg Maze](https://open.kattis.com/problems/borg) | [Java](Java/borg/src/) |
 | [Timebomb](https://open.kattis.com/problems/timebomb) | [Java](Java/timebomb/src/) |
+| [Movie Collection](https://open.kattis.com/problems/moviecollection) | [Java](Java/moviecollection/src/) |
 | [Best Compression Ever](https://open.kattis.com/problems/bestcompression) | [C](C/bestcompression/src/), [Java](Java/bestcompression/src/) |
 | [Semafori](https://open.kattis.com/problems/semafori) | [C](C/semafori/src/), [Kotlin](Kotlin/semafori/src/main/kotlin/) |
 | [R2](https://open.kattis.com/problems/r2) | [Kotlin](Kotlin/r2/src/main/kotlin/) |
